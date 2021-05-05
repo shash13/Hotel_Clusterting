@@ -1,0 +1,1660 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0320.1853                               -->
+<workbook original-version='18.1' source-build='2021.1.0 (20211.21.0320.1853)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AllowCalculationsForDensifiedMarks.true...AllowCalculationsForDensifiedMarks />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Hotel (Group 12- Descriptive &amp; Visualization)' inline='true' name='federated.0vrw9uw0bdtkoy12wwdai0ox6i7a' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Group 12- Descriptive &amp; Visualization' name='excel-direct.17nutb70k093ux1fg336s0ha9o6k'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/mesha/OneDrive/Desktop/Data Science/Datasets/Data Files/Group 12- Descriptive &amp; Visualization.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.17nutb70k093ux1fg336s0ha9o6k' name='Hotel' table='[Hotel$]' type='table'>
+          <columns gridOrigin='A1:S7810:no:A1:S7810:0' header='yes' outcome='6'>
+            <column datatype='integer' name='HOTEL_CUSTOMER_ID' ordinal='0' />
+            <column datatype='date' name='FOL_ACT_ARR_DATE' ordinal='1' />
+            <column datatype='date' name='FOL_ACT_DEP_DATE' ordinal='2' />
+            <column datatype='string' name='Arrival Month' ordinal='3' />
+            <column datatype='string' name='Departure Month' ordinal='4' />
+            <column datatype='integer' name='Duration' ordinal='5' />
+            <column datatype='real' name='DEBIT_TTL' ordinal='6' />
+            <column datatype='real' name='ROOMDEBIT' ordinal='7' />
+            <column datatype='real' name='OTHERDEBIT' ordinal='8' />
+            <column datatype='real' name='FNBDEBIT' ordinal='9' />
+            <column datatype='real' name='ENTERTNDEBIT' ordinal='10' />
+            <column datatype='real' name='RETLDEBIT' ordinal='11' />
+            <column datatype='real' name='CREDIT_TTL' ordinal='12' />
+            <column datatype='real' name='ROOMCREDIT' ordinal='13' />
+            <column datatype='real' name='OTHERCREDIT' ordinal='14' />
+            <column datatype='real' name='FNBCREDIT' ordinal='15' />
+            <column datatype='real' name='ENTERTNCREDIT' ordinal='16' />
+            <column datatype='real' name='RETLCREDIT' ordinal='17' />
+            <column datatype='real' name='TOTAL_CHARGES' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.17nutb70k093ux1fg336s0ha9o6k' name='Hotel' table='[Hotel$]' type='table'>
+          <columns gridOrigin='A1:S7810:no:A1:S7810:0' header='yes' outcome='6'>
+            <column datatype='integer' name='HOTEL_CUSTOMER_ID' ordinal='0' />
+            <column datatype='date' name='FOL_ACT_ARR_DATE' ordinal='1' />
+            <column datatype='date' name='FOL_ACT_DEP_DATE' ordinal='2' />
+            <column datatype='string' name='Arrival Month' ordinal='3' />
+            <column datatype='string' name='Departure Month' ordinal='4' />
+            <column datatype='integer' name='Duration' ordinal='5' />
+            <column datatype='real' name='DEBIT_TTL' ordinal='6' />
+            <column datatype='real' name='ROOMDEBIT' ordinal='7' />
+            <column datatype='real' name='OTHERDEBIT' ordinal='8' />
+            <column datatype='real' name='FNBDEBIT' ordinal='9' />
+            <column datatype='real' name='ENTERTNDEBIT' ordinal='10' />
+            <column datatype='real' name='RETLDEBIT' ordinal='11' />
+            <column datatype='real' name='CREDIT_TTL' ordinal='12' />
+            <column datatype='real' name='ROOMCREDIT' ordinal='13' />
+            <column datatype='real' name='OTHERCREDIT' ordinal='14' />
+            <column datatype='real' name='FNBCREDIT' ordinal='15' />
+            <column datatype='real' name='ENTERTNCREDIT' ordinal='16' />
+            <column datatype='real' name='RETLCREDIT' ordinal='17' />
+            <column datatype='real' name='TOTAL_CHARGES' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S7810:no:A1:S7810:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HOTEL_CUSTOMER_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HOTEL_CUSTOMER_ID]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>HOTEL_CUSTOMER_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FOL_ACT_ARR_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FOL_ACT_ARR_DATE]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FOL_ACT_ARR_DATE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FOL_ACT_DEP_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FOL_ACT_DEP_DATE]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FOL_ACT_DEP_DATE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arrival Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Arrival Month]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>Arrival Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Departure Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Departure Month]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>Departure Month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duration]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>Duration</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEBIT_TTL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DEBIT_TTL]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>DEBIT_TTL</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROOMDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROOMDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ROOMDEBIT</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OTHERDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OTHERDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>OTHERDEBIT</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FNBDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FNBDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FNBDEBIT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENTERTNDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ENTERTNDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ENTERTNDEBIT</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RETLDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RETLDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>RETLDEBIT</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CREDIT_TTL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CREDIT_TTL]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>CREDIT_TTL</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROOMCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROOMCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ROOMCREDIT</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OTHERCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OTHERCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>OTHERCREDIT</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FNBCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FNBCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FNBCREDIT</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENTERTNCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ENTERTNCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ENTERTNCREDIT</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RETLCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RETLCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>RETLCREDIT</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_CHARGES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_CHARGES]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>TOTAL_CHARGES</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Arrival Month]' role='dimension' type='nominal' />
+      <column caption='Credit Ttl' datatype='real' name='[CREDIT_TTL]' role='measure' type='quantitative' />
+      <column caption='Debit Ttl' datatype='real' name='[DEBIT_TTL]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Duration]' role='measure' type='quantitative' />
+      <column caption='Entertncredit' datatype='real' name='[ENTERTNCREDIT]' role='measure' type='quantitative' />
+      <column caption='Entertndebit' datatype='real' name='[ENTERTNDEBIT]' role='measure' type='quantitative' />
+      <column caption='Fnbcredit' datatype='real' name='[FNBCREDIT]' role='measure' type='quantitative' />
+      <column caption='Fnbdebit' datatype='real' name='[FNBDEBIT]' role='measure' type='quantitative' />
+      <column caption='Fol Act Arr Date' datatype='date' name='[FOL_ACT_ARR_DATE]' role='dimension' type='ordinal' />
+      <column caption='Fol Act Dep Date' datatype='date' name='[FOL_ACT_DEP_DATE]' role='dimension' type='ordinal' />
+      <column caption='Hotel Customer Id' datatype='integer' name='[HOTEL_CUSTOMER_ID]' role='dimension' type='ordinal' />
+      <column caption='Othercredit' datatype='real' name='[OTHERCREDIT]' role='measure' type='quantitative' />
+      <column caption='Otherdebit' datatype='real' name='[OTHERDEBIT]' role='measure' type='quantitative' />
+      <column caption='Retlcredit' datatype='real' name='[RETLCREDIT]' role='measure' type='quantitative' />
+      <column caption='Retldebit' datatype='real' name='[RETLDEBIT]' role='measure' type='quantitative' />
+      <column caption='Roomcredit' datatype='real' name='[ROOMCREDIT]' role='measure' type='quantitative' />
+      <column caption='Roomdebit' datatype='real' name='[ROOMDEBIT]' role='measure' type='quantitative' />
+      <column caption='Total Charges' datatype='real' name='[TOTAL_CHARGES]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hotel' datatype='table' name='[__tableau_internal_object_id__].[Hotel_C08E6A3C6FA64311A9009725DBA0B5B2]' role='measure' type='quantitative' />
+      <column-instance column='[RETLDEBIT]' derivation='Avg' name='[avg:RETLDEBIT:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Arrival Month]' derivation='None' name='[none:Arrival Month:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Duration]' derivation='Avg' name='[pcto:avg:Duration:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Duration]' derivation='Avg' name='[pcto:avg:Duration:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[OTHERDEBIT]' derivation='Avg' name='[pcto:avg:OTHERDEBIT:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[RETLDEBIT]' derivation='Avg' name='[pcto:avg:RETLDEBIT:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[DEBIT_TTL]' derivation='Sum' name='[pcto:sum:DEBIT_TTL:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Duration]' derivation='Sum' name='[pcto:sum:Duration:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[Duration]' derivation='Sum' name='[pcto:sum:Duration:qk]' pivot='key' type='quantitative'>
+        <table-calc ordering-type='Columns' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[OTHERDEBIT]' derivation='Sum' name='[pcto:sum:OTHERDEBIT:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[RETLDEBIT]' derivation='Sum' name='[pcto:sum:RETLDEBIT:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[ROOMDEBIT]' derivation='Sum' name='[pcto:sum:ROOMDEBIT:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[TOTAL_CHARGES]' derivation='Sum' name='[pcto:sum:TOTAL_CHARGES:qk:1]' pivot='key' type='quantitative'>
+        <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+      </column-instance>
+      <column-instance column='[DEBIT_TTL]' derivation='Sum' name='[sum:DEBIT_TTL:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Duration]' derivation='Sum' name='[sum:Duration:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[OTHERDEBIT]' derivation='Sum' name='[sum:OTHERDEBIT:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[RETLDEBIT]' derivation='Sum' name='[sum:RETLDEBIT:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[ROOMDEBIT]' derivation='Sum' name='[sum:ROOMDEBIT:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[TOTAL_CHARGES]' derivation='Sum' name='[sum:TOTAL_CHARGES:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Arrival Month:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Sep&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Jan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;May&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Oct&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Jun&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Feb&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Jul&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Nov&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Aug&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Mar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Dec&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Apr&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[avg:RETLDEBIT:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:Duration:qk:1]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:RETLDEBIT:qk:1]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[sum:RETLDEBIT:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:OTHERDEBIT:qk]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:OTHERDEBIT:qk:1]&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[sum:OTHERDEBIT:qk]&quot;</bucket>
+            </map>
+            <map to='#9c755f'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:DEBIT_TTL:qk:1]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:TOTAL_CHARGES:qk:1]&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[sum:TOTAL_CHARGES:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:Duration:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:Duration:qk:1]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:Duration:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[sum:Duration:qk]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:ROOMDEBIT:qk:1]&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[sum:ROOMDEBIT:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[sum:DEBIT_TTL:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:RETLDEBIT:qk:1]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hotel' id='Hotel_C08E6A3C6FA64311A9009725DBA0B5B2'>
+            <properties context=''>
+              <relation connection='excel-direct.17nutb70k093ux1fg336s0ha9o6k' name='Hotel' table='[Hotel$]' type='table'>
+                <columns gridOrigin='A1:S7810:no:A1:S7810:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='HOTEL_CUSTOMER_ID' ordinal='0' />
+                  <column datatype='date' name='FOL_ACT_ARR_DATE' ordinal='1' />
+                  <column datatype='date' name='FOL_ACT_DEP_DATE' ordinal='2' />
+                  <column datatype='string' name='Arrival Month' ordinal='3' />
+                  <column datatype='string' name='Departure Month' ordinal='4' />
+                  <column datatype='integer' name='Duration' ordinal='5' />
+                  <column datatype='real' name='DEBIT_TTL' ordinal='6' />
+                  <column datatype='real' name='ROOMDEBIT' ordinal='7' />
+                  <column datatype='real' name='OTHERDEBIT' ordinal='8' />
+                  <column datatype='real' name='FNBDEBIT' ordinal='9' />
+                  <column datatype='real' name='ENTERTNDEBIT' ordinal='10' />
+                  <column datatype='real' name='RETLDEBIT' ordinal='11' />
+                  <column datatype='real' name='CREDIT_TTL' ordinal='12' />
+                  <column datatype='real' name='ROOMCREDIT' ordinal='13' />
+                  <column datatype='real' name='OTHERCREDIT' ordinal='14' />
+                  <column datatype='real' name='FNBCREDIT' ordinal='15' />
+                  <column datatype='real' name='ENTERTNCREDIT' ordinal='16' />
+                  <column datatype='real' name='RETLCREDIT' ordinal='17' />
+                  <column datatype='real' name='TOTAL_CHARGES' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Hotel (Group 12- Descriptive &amp; Visualization) (2)' inline='true' name='federated.1m7p0bj0t24ucd18jjyi81p384cc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Group 12- Descriptive &amp; Visualization' name='excel-direct.0xn8rqo1jpr3x91e78k2g0hxdhtz'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/mesha/OneDrive/Desktop/Data Science/Datasets/Data Files/Group 12- Descriptive &amp; Visualization.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0xn8rqo1jpr3x91e78k2g0hxdhtz' name='Hotel' table='[Hotel$]' type='table'>
+          <columns gridOrigin='A1:S7810:no:A1:S7810:0' header='yes' outcome='6'>
+            <column datatype='integer' name='HOTEL_CUSTOMER_ID' ordinal='0' />
+            <column datatype='date' name='FOL_ACT_ARR_DATE' ordinal='1' />
+            <column datatype='date' name='FOL_ACT_DEP_DATE' ordinal='2' />
+            <column datatype='string' name='Arrival Month' ordinal='3' />
+            <column datatype='string' name='Departure Month' ordinal='4' />
+            <column datatype='integer' name='Duration' ordinal='5' />
+            <column datatype='real' name='DEBIT_TTL' ordinal='6' />
+            <column datatype='real' name='ROOMDEBIT' ordinal='7' />
+            <column datatype='real' name='OTHERDEBIT' ordinal='8' />
+            <column datatype='real' name='FNBDEBIT' ordinal='9' />
+            <column datatype='real' name='ENTERTNDEBIT' ordinal='10' />
+            <column datatype='real' name='RETLDEBIT' ordinal='11' />
+            <column datatype='real' name='CREDIT_TTL' ordinal='12' />
+            <column datatype='real' name='ROOMCREDIT' ordinal='13' />
+            <column datatype='real' name='OTHERCREDIT' ordinal='14' />
+            <column datatype='real' name='FNBCREDIT' ordinal='15' />
+            <column datatype='real' name='ENTERTNCREDIT' ordinal='16' />
+            <column datatype='real' name='RETLCREDIT' ordinal='17' />
+            <column datatype='real' name='TOTAL_CHARGES' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0xn8rqo1jpr3x91e78k2g0hxdhtz' name='Hotel' table='[Hotel$]' type='table'>
+          <columns gridOrigin='A1:S7810:no:A1:S7810:0' header='yes' outcome='6'>
+            <column datatype='integer' name='HOTEL_CUSTOMER_ID' ordinal='0' />
+            <column datatype='date' name='FOL_ACT_ARR_DATE' ordinal='1' />
+            <column datatype='date' name='FOL_ACT_DEP_DATE' ordinal='2' />
+            <column datatype='string' name='Arrival Month' ordinal='3' />
+            <column datatype='string' name='Departure Month' ordinal='4' />
+            <column datatype='integer' name='Duration' ordinal='5' />
+            <column datatype='real' name='DEBIT_TTL' ordinal='6' />
+            <column datatype='real' name='ROOMDEBIT' ordinal='7' />
+            <column datatype='real' name='OTHERDEBIT' ordinal='8' />
+            <column datatype='real' name='FNBDEBIT' ordinal='9' />
+            <column datatype='real' name='ENTERTNDEBIT' ordinal='10' />
+            <column datatype='real' name='RETLDEBIT' ordinal='11' />
+            <column datatype='real' name='CREDIT_TTL' ordinal='12' />
+            <column datatype='real' name='ROOMCREDIT' ordinal='13' />
+            <column datatype='real' name='OTHERCREDIT' ordinal='14' />
+            <column datatype='real' name='FNBCREDIT' ordinal='15' />
+            <column datatype='real' name='ENTERTNCREDIT' ordinal='16' />
+            <column datatype='real' name='RETLCREDIT' ordinal='17' />
+            <column datatype='real' name='TOTAL_CHARGES' ordinal='18' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:S7810:no:A1:S7810:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HOTEL_CUSTOMER_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HOTEL_CUSTOMER_ID]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>HOTEL_CUSTOMER_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FOL_ACT_ARR_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FOL_ACT_ARR_DATE]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FOL_ACT_ARR_DATE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FOL_ACT_DEP_DATE</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[FOL_ACT_DEP_DATE]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FOL_ACT_DEP_DATE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Arrival Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Arrival Month]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>Arrival Month</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Departure Month</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Departure Month]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>Departure Month</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Duration</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Duration]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>Duration</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DEBIT_TTL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DEBIT_TTL]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>DEBIT_TTL</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROOMDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROOMDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ROOMDEBIT</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OTHERDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OTHERDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>OTHERDEBIT</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FNBDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FNBDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FNBDEBIT</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENTERTNDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ENTERTNDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ENTERTNDEBIT</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RETLDEBIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RETLDEBIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>RETLDEBIT</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CREDIT_TTL</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CREDIT_TTL]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>CREDIT_TTL</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ROOMCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ROOMCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ROOMCREDIT</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OTHERCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OTHERCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>OTHERCREDIT</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FNBCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[FNBCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>FNBCREDIT</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ENTERTNCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ENTERTNCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>ENTERTNCREDIT</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RETLCREDIT</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RETLCREDIT]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>RETLCREDIT</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TOTAL_CHARGES</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[TOTAL_CHARGES]</local-name>
+            <parent-name>[Hotel]</parent-name>
+            <remote-alias>TOTAL_CHARGES</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Credit Ttl' datatype='real' name='[CREDIT_TTL]' role='measure' type='quantitative' />
+      <column caption='Debit Ttl' datatype='real' name='[DEBIT_TTL]' role='measure' type='quantitative' />
+      <column caption='Entertncredit' datatype='real' name='[ENTERTNCREDIT]' role='measure' type='quantitative' />
+      <column caption='Entertndebit' datatype='real' name='[ENTERTNDEBIT]' role='measure' type='quantitative' />
+      <column caption='Fnbcredit' datatype='real' name='[FNBCREDIT]' role='measure' type='quantitative' />
+      <column caption='Fnbdebit' datatype='real' name='[FNBDEBIT]' role='measure' type='quantitative' />
+      <column caption='Fol Act Arr Date' datatype='date' name='[FOL_ACT_ARR_DATE]' role='dimension' type='ordinal' />
+      <column caption='Fol Act Dep Date' datatype='date' name='[FOL_ACT_DEP_DATE]' role='dimension' type='ordinal' />
+      <column caption='Hotel Customer Id' datatype='integer' name='[HOTEL_CUSTOMER_ID]' role='dimension' type='ordinal' />
+      <column caption='Othercredit' datatype='real' name='[OTHERCREDIT]' role='measure' type='quantitative' />
+      <column caption='Otherdebit' datatype='real' name='[OTHERDEBIT]' role='measure' type='quantitative' />
+      <column caption='Retlcredit' datatype='real' name='[RETLCREDIT]' role='measure' type='quantitative' />
+      <column caption='Retldebit' datatype='real' name='[RETLDEBIT]' role='measure' type='quantitative' />
+      <column caption='Roomcredit' datatype='real' name='[ROOMCREDIT]' role='measure' type='quantitative' />
+      <column caption='Roomdebit' datatype='real' name='[ROOMDEBIT]' role='measure' type='quantitative' />
+      <column caption='Total Charges' datatype='real' name='[TOTAL_CHARGES]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='Hotel' datatype='table' name='[__tableau_internal_object_id__].[Hotel_C89CFCFF9FAC4C578E8853520FBB10F5]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Hotel' id='Hotel_C89CFCFF9FAC4C578E8853520FBB10F5'>
+            <properties context=''>
+              <relation connection='excel-direct.0xn8rqo1jpr3x91e78k2g0hxdhtz' name='Hotel' table='[Hotel$]' type='table'>
+                <columns gridOrigin='A1:S7810:no:A1:S7810:0' header='yes' outcome='6'>
+                  <column datatype='integer' name='HOTEL_CUSTOMER_ID' ordinal='0' />
+                  <column datatype='date' name='FOL_ACT_ARR_DATE' ordinal='1' />
+                  <column datatype='date' name='FOL_ACT_DEP_DATE' ordinal='2' />
+                  <column datatype='string' name='Arrival Month' ordinal='3' />
+                  <column datatype='string' name='Departure Month' ordinal='4' />
+                  <column datatype='integer' name='Duration' ordinal='5' />
+                  <column datatype='real' name='DEBIT_TTL' ordinal='6' />
+                  <column datatype='real' name='ROOMDEBIT' ordinal='7' />
+                  <column datatype='real' name='OTHERDEBIT' ordinal='8' />
+                  <column datatype='real' name='FNBDEBIT' ordinal='9' />
+                  <column datatype='real' name='ENTERTNDEBIT' ordinal='10' />
+                  <column datatype='real' name='RETLDEBIT' ordinal='11' />
+                  <column datatype='real' name='CREDIT_TTL' ordinal='12' />
+                  <column datatype='real' name='ROOMCREDIT' ordinal='13' />
+                  <column datatype='real' name='OTHERCREDIT' ordinal='14' />
+                  <column datatype='real' name='FNBCREDIT' ordinal='15' />
+                  <column datatype='real' name='ENTERTNCREDIT' ordinal='16' />
+                  <column datatype='real' name='RETLCREDIT' ordinal='17' />
+                  <column datatype='real' name='TOTAL_CHARGES' ordinal='18' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Total Charges vs Month of Arrival</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hotel (Group 12- Descriptive &amp; Visualization)' name='federated.0vrw9uw0bdtkoy12wwdai0ox6i7a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vrw9uw0bdtkoy12wwdai0ox6i7a'>
+            <column datatype='string' name='[Arrival Month]' role='dimension' type='nominal' />
+            <column caption='Total Charges' datatype='real' name='[TOTAL_CHARGES]' role='measure' type='quantitative' />
+            <column-instance column='[TOTAL_CHARGES]' derivation='Avg' name='[avg:TOTAL_CHARGES:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Arrival Month]' derivation='None' name='[none:Arrival Month:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]'>
+            <groupfilter function='level-members' level='[none:Arrival Month:nk]' />
+          </filter>
+          <slices>
+            <column>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' data-class='subtotal' value='#606b76' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[avg:TOTAL_CHARGES:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='background-color' data-class='subtotal' scope='rows' value='#1b1b1b' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-visibility' scope='cols' value='on' />
+            <format attr='line-pattern-only' scope='cols' value='dashed' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[avg:TOTAL_CHARGES:qk]' />
+              <text column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' />
+              <color column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{26B9D84B-2702-4B3D-BCB5-A7177865A1AB}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>WTF</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Hotel (Group 12- Descriptive &amp; Visualization)' name='federated.0vrw9uw0bdtkoy12wwdai0ox6i7a' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vrw9uw0bdtkoy12wwdai0ox6i7a'>
+            <column datatype='string' name='[Arrival Month]' role='dimension' type='nominal' />
+            <column caption='Debit Ttl' datatype='real' name='[DEBIT_TTL]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Duration]' role='measure' type='quantitative' />
+            <column caption='Otherdebit' datatype='real' name='[OTHERDEBIT]' role='measure' type='quantitative' />
+            <column caption='Retldebit' datatype='real' name='[RETLDEBIT]' role='measure' type='quantitative' />
+            <column caption='Roomdebit' datatype='real' name='[ROOMDEBIT]' role='measure' type='quantitative' />
+            <column caption='Total Charges' datatype='real' name='[TOTAL_CHARGES]' role='measure' type='quantitative' />
+            <column-instance column='[Arrival Month]' derivation='None' name='[none:Arrival Month:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Duration]' derivation='Avg' name='[pcto:avg:Duration:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[OTHERDEBIT]' derivation='Avg' name='[pcto:avg:OTHERDEBIT:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[RETLDEBIT]' derivation='Avg' name='[pcto:avg:RETLDEBIT:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[DEBIT_TTL]' derivation='Sum' name='[pcto:sum:DEBIT_TTL:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[ROOMDEBIT]' derivation='Sum' name='[pcto:sum:ROOMDEBIT:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[TOTAL_CHARGES]' derivation='Sum' name='[pcto:sum:TOTAL_CHARGES:qk:1]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:DEBIT_TTL:qk:1]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:Duration:qk:1]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:OTHERDEBIT:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:avg:RETLDEBIT:qk:1]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:ROOMDEBIT:qk:1]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[pcto:sum:TOTAL_CHARGES:qk:1]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>%all%</bucket>
+              <bucket>&quot;Sep&quot;</bucket>
+              <bucket>&quot;Feb&quot;</bucket>
+              <bucket>&quot;Jun&quot;</bucket>
+              <bucket>&quot;Nov&quot;</bucket>
+              <bucket>&quot;Apr&quot;</bucket>
+              <bucket>&quot;Oct&quot;</bucket>
+              <bucket>&quot;Aug&quot;</bucket>
+              <bucket>&quot;Jul&quot;</bucket>
+              <bucket>&quot;Mar&quot;</bucket>
+              <bucket>&quot;Jan&quot;</bucket>
+              <bucket>&quot;May&quot;</bucket>
+              <bucket>&quot;Dec&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+          <_.fcp.AllowCalculationsForDensifiedMarks.true...calcs-on-densified-marks value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[Multiple Values]</rows>
+        <cols total='true'>([federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk] / [federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{B53ADE77-39B5-4272-A4F6-15B0E38E7341}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' type='filter' />
+            <card param='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' type='highlighter' />
+            <card pane-specification-id='0' param='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]</field>
+            <field>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:HOTEL_CUSTOMER_ID:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{DEDF09CB-5678-44FD-BC79-88565821010C}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2' tab-color='#6e597f'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]' type='highlighter' />
+            <card pane-specification-id='0' param='[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[:Measure Names]</field>
+            <field>[federated.0vrw9uw0bdtkoy12wwdai0ox6i7a].[none:Arrival Month:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{766B9E06-D057-431D-AD4A-89C9CC270DEC}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
